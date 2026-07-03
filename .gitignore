@@ -11,15 +11,6 @@ __pycache__/
 venv/
 env/
 
-# Results / artifacts
-result*/
-*.h5
-*.weights.h5
-*.keras
-*.ckpt
-*.pkl
-*.npz
-checkpoints/
 
 # Plots / scratch
 *.pdf
