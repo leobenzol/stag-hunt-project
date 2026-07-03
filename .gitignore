@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Envs
+.venv/
+venv/
+env/
+
+# Results / artifacts
+result*/
+*.h5
+*.weights.h5
+*.keras
+*.ckpt
+*.pkl
+*.npz
+checkpoints/
+
+# Plots / scratch
+*.pdf
+*.png
+!report/**/*.pdf
+!report/**/*.png
+
+archive/
+results_tune/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp

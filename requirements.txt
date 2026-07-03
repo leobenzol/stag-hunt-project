@@ -1,0 +1,17 @@
+tensorflow>=2.20.0
+
+# Env (uses `gym` API but registers under gymnasium namespace)
+gymnasium>=0.29,<2.0
+gym>=0.26,<2.0
+# Vendored locally to use a proper fixed seed in reset
+-e ./vendor/gymnasium-stag-hunt
+
+numpy>=2.1,<2.2
+pyyaml>=6.0
+pandas>=2.0
+tqdm>=4.66
+
+matplotlib>=3.8
+scipy>=1.12
+
+pygame>=2.5
